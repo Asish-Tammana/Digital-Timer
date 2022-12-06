@@ -1,0 +1,93 @@
+.bg-container {
+  background-color: #cffcf1;
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+.timer-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.timer-count {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.control-container {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.control-option {
+  display: flex;
+  align-items: center;
+
+  padding: 5px;
+}
+
+.limit-setter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.control-option-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.timer-value {
+  width: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #13feaa, #74fae8);
+}
